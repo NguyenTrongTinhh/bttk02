@@ -1,0 +1,211 @@
+#wraper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/* phần bên trái LEFT */
+#left{
+    margin-left: 40px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+#left-north{
+    display: flex;
+    width: 95px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#left-south{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: end;
+}
+
+#center{
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+}
+#center-north{
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    justify-content: space-between;
+}
+.meeting{
+    height:100%;
+}
+.time{
+    color: red;
+    height: 60%;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    border: solid 2px red;
+    border-radius: 20px;
+    position: relative;
+    top: 6px;
+    right: 8px;
+}
+.tg{
+    position: relative;
+    bottom: 7px;
+}
+
+/* phần giữa CENTER */
+#center{
+    display: flex;
+
+}
+#center-cen{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+#cen-one{
+    display: flex;
+}
+#img-small{
+    position: relative;
+    display: flex;
+}
+.cen-but-one{
+    background-color: rgb(243, 43, 76);
+    color: aliceblue;
+    border-radius: 30px;
+    height: 30px;
+    width: 85px;
+    border: none;
+}
+.ngaythang{
+    position: relative;
+    bottom: 13px;
+    margin-left: 20px;
+}
+#hinh-one{
+    display: flex;
+}
+.ten-one{
+    display: flex;
+    width: 59%;
+    justify-content: space-between;
+    /* align-items: start; */
+    position: absolute;
+    bottom: 431px;
+}
+.but-ben{
+    width: 160px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 6px;
+    border: none;
+    position: relative;
+    margin-left: 23px;
+}
+#three-img{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+.but-three-img{
+    position: relative;
+    bottom: 15px;
+    width: 120px;
+    height: 25px;
+    margin-left: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.ten-two{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    /* align-items: start; */
+    position: absolute;
+    bottom: 80px;
+}
+#sev-but{
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+    position: relative;
+    left:130px;
+}
+#right{
+    display: flex;
+    margin-left: 40px;
+    width: 25%;
+    flex-direction: column;
+}
+#right-north{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: space-around;
+}
+.right-one{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.but-add{
+    height: 35px;
+    width: 70px;
+    background-color:white;
+    color: red;
+    border-radius: 5px;
+    border-color: red;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.right-two{
+    display: flex;
+    flex-direction: column;
+}
+.right-two-one{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+}
+.right-two-two{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+
+}
+.right-two-three{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+}
+.right-two-four{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+}
+#right-south{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.right-one{
+    display: flex;
+    height: 100px;
+}
